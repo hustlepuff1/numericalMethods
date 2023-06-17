@@ -1,10 +1,12 @@
-# example3_10
+# example3_10 데이터 x, y의 선형 회귀 와 표준편차
 import numpy as np
 from polyFit import *
 import matplotlib.pyplot as plt
 
-xData = np.array([0.0, 1.0, 2.0, 2.5, 3.0])
-yData = np.array([2.9, 3.7, 4.1, 4.4, 5.0])
+xData = np.array([1.0, 2.5, 3.5, 1.1, 1.8, 3.7])
+yData = np.array([6.0, 15.7, 27.1, 5.3, 9.5, 28.8])
+xData = np.array([0, 0.5, 1], float)
+yData = np.array([-1, 4, 3], float)
 
 while True:
     try:

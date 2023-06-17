@@ -1,11 +1,11 @@
-## example4_3
+## rootsearch and bisection으로 근 찾기
 import math
 from rootsearch import *
 from bisection import *
 
-def f(x): return x - math.tan(x)
+def f(x): return x - math.tan(x) # 함수
 
-a,b,dx = (0.0, 20.0, 0.01)
+a,b,dx = (0.0, 20.0, 0.01) # 구간
 print('The roots are:')
 
 while True:

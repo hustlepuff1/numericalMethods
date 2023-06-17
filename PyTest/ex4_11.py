@@ -1,9 +1,9 @@
-## example4_11
+## example4_11 라그랑주 반복 공식으로 해 찾기
 from polyRoots import *
 import numpy as np
 from evalPoly import *
 
-c = np.array([26.0,-4.48,-4.0,1.0])
+c = np.array([26.0,-4.48,-4.0,1.0]) # 뒤에서 함수 계수 쓰기
 
 import matplotlib.pyplot as plt
 xD=np.arange(-5.,5.001,0.01)

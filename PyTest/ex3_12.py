@@ -1,4 +1,4 @@
-## example3_12
+## example3_12 차수 m 에 대한 다항식을 데이터 이용해 몇 차 인지 맞추는것
 import numpy as np
 from polyFit import *
 import matplotlib.pyplot as plt

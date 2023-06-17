@@ -3,7 +3,7 @@ import numpy as np
 from polyFit import *
 import matplotlib.pyplot as plt
 
-xData = np.array([1.9, 2.1, 2.4])
+xData = np.array([1.9, 2.1, 2.4]) # 중간에 3개 값
 yData = np.array([1.3961, 1.5432, 1.7349])
 
 while True:

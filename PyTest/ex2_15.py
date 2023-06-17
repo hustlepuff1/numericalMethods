@@ -1,4 +1,4 @@
-## example2_15
+## example2_15 방정식 가우스 사이덜 반복법
 import numpy as np
 from gaussSeidel import *
 

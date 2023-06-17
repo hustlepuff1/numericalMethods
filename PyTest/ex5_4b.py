@@ -3,7 +3,7 @@ import numpy as np
 from cubicSpline import *
 #xData = np.array([1,2,3,4,5],float)
 #yData = np.array([0,1,0,1,0],float)
-xData = np.array([1.5, 1.9, 2.1, 2.4, 2.6, 3.1])
+xData = np.array([1.5, 1.9, 2.1, 2.4, 2.6, 3.1]) # x y 값 둘다 넣기
 yData = np.array([1.0628, 1.3961, 1.5432, 1.7349, 1.8423, 2.0397])
 k = curvatures(xData,yData)
 print(k)

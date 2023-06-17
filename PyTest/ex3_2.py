@@ -1,4 +1,4 @@
-## example3_2
+## example3_2 뉴턴 다항식을 보간
 import numpy as np
 from newtonPoly import *
 import matplotlib.pyplot as plt

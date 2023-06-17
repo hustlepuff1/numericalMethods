@@ -1,4 +1,4 @@
-## example4_9
+## 뉴턴 랩슨 식 3개에 시작점 1 1 1
 import numpy as np
 import math
 from newtonRaphson2 import *
